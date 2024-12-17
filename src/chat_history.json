@@ -1,0 +1,983 @@
+{
+    "1731416160905": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！这是一个古老而有趣的中国诗词游戏。规则很简单：我们轮流说出包含特定字的诗句。我先提供一个字，然后我们轮流说出一句话，这句话中必须包含这个字。如果某人不能在规定时间内给出一个正确的诗句，那么这个人就输了。\n\n现在，请您输入一个字，我们就可以开始游戏了。您准备好了吗？请告诉我一个字，让我们开始吧！",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        },
+        {
+            "content": "hello",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "很抱歉，但为了遵循飞花令的规则，我们需要使用一个汉字作为游戏的特定字。您可以给我一个汉字，比如“月”、“花”、“山”等，然后我们就可以开始游戏了。请您提供一个汉字，我会先开始。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1731416679928": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，飞花令是一种古代的诗词游戏，非常有趣。游戏规则是这样的：参与者轮流说出包含特定字的诗句，这个特定的字由一位玩家在游戏开始时提出。每位玩家需要在规定的时间内回答，且回答的诗句不能重复。\n\n现在，请您输入一个字，我们就可以开始游戏了。我会先说出包含这个字的诗句，然后轮到您回答。如果回答正确，我们就可以继续游戏；如果回答错误，那么这一轮就算失败了。您可以随时选择重来。那么，请开始输入您选择的字吧！",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1731416979448": [
+        {
+            "content": "你好",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "你好！很高兴在这里与你相遇。作为一个古诗词大师，我愿意带你领略古代诗词的魅力。无论是测试你的诗词知识，还是为你推荐优美的古诗词，亦或是与你一起玩飞花令，我都将竭尽所能。请问，你想先从哪个能力开始呢？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1731418389240": [],
+    "1731418892708": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了更好地为您推荐合适的古诗，请您回答以下三个问题：\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732189855153": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令游戏！飞花令是一种古代文人雅集时玩的游戏，规则如下：\n\n1. 由一位玩家先想好一个“令字”，这个字通常是一个常见的汉字。\n2. 另一位玩家接着说出一个包含这个“令字”的古诗词句子。\n3. 依次轮流，每位玩家必须在规定时间内接出正确的句子，不能重复已经说过的句子。\n4. 如果有玩家不能在规定时间内接出句子，或者接出的句子不符合规则，那么该玩家就输了。\n\n请您先想一个字作为我们的“令字”，然后我来说第一句，如何？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        },
+        {
+            "content": "月",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，您给出的“令字”是“月”。我来开始：\n\n“举头望明月，低头思故乡。”\n\n现在轮到您了，请接一个包含“月”字的古诗词句子。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732191570861": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！飞花令是一种古代的诗词游戏，玩家需根据规定的字来接龙诗词。其规则如下：\n\n1. 由一位玩家先提出一个字。\n2. 另一位玩家则需要接上一句包含这个字的诗句。\n3. 接龙的诗句不能重复，且要求符合诗律。\n4. 如果玩家不能在规定时间内接出正确的诗句，则视为失败。\n\n现在，请您输入一个字，我们就可以开始游戏了！我会先给出一个包含这个字的诗句，然后轮到您接龙。准备好了吗？请输入您选择的字。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732191848735": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！这是一个古老而有趣的诗词游戏。规则很简单：我们轮流说出一句话，每一句都要包含一个特定的字，而且必须是古诗词中的原句。我先介绍规则：\n\n1. 由一方先提出一个字，然后对方必须回答一句包含这个字的古诗词句子。\n2. 回答正确后，对方再提出另一个字，然后轮流回答。\n3. 如果在规定的时间内不能回答出来，或者回答的句子不符合要求（不是古诗词原句），则算作失败。\n4. 可以设定一个时间限制或者回答次数限制，根据个人喜好来。\n\n现在，请您输入一个字，我们就可以开始游戏了！我会先开始第一轮。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732193353334": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，飞花令是一款有趣的古诗词游戏。游戏规则很简单：参与者轮流说出包含特定字的古诗词句子。我先来介绍一下规则：\n\n1. 由一方先出一个字，然后轮流接龙。\n2. 接龙的句子必须包含这个特定的字。\n3. 句子必须来自古诗词，不能自己创作。\n4. 如果一方在规定时间内无法接出正确的句子，那么这一轮他就算输了。\n\n现在，请您出一个字，我们就可以开始游戏了！您可以输入您选择的字，然后我会开始第一句。期待您的参与！",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732198252211": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了更好地为您推荐合适的古诗，我需要先问您几个问题。\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732200763654": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！这是一个古老而有趣的诗词游戏，规则很简单：\n\n1. 我会先给出一个字，然后您需要尽可能快地背诵出包含这个字的古诗词句子。\n2. 如果您背对了，我会继续下一轮，并给出另一个字。\n3. 如果您背错了，那么这一轮就算失败，我们可以选择重来。\n\n现在，请您输入一个字，我们就可以开始游戏了！",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    ],
+    "1732259184534": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了更好地为您推荐合适的古诗，请您回答以下三个问题：\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-6f8a1781-e2e4-462b-937f-7a735b069ee0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 287,
+                "output_tokens": 75,
+                "total_tokens": 362,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "风景田园，古体诗，李白",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "根据您的选择，我为您推荐李白的《望庐山瀑布》：\n\n日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。\n\n推荐理由：\n1. 题材：这首诗描绘了庐山瀑布壮丽的自然风光，属于风景田园的题材，与您的喜好相符。\n2. 格律：这是一首古体诗，符合您对古体诗的偏好。\n3. 诗人：这首诗是李白的作品，他是您所喜欢的诗人，李白的诗歌以豪放、奔放、想象丰富而著称，这首诗也不例外。\n\n希望您会喜欢这首诗的意境和韵味。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-de4403f5-915c-407f-8151-b22338d1d013",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 371,
+                "output_tokens": 146,
+                "total_tokens": 517,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259230778": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想要玩飞花令游戏！飞花令是一种古老的文学游戏，玩家需根据规定的字来吟诵诗句，诗句中必须包含这个字。游戏规则如下：\n\n1. 玩家A提供一个字。\n2. 玩家B和A轮流快速吟诵包含这个字的诗句。\n3. 如果玩家在规定时间内不能给出正确的诗句，则为失败。\n4. 可以设定一个时间限制，比如10秒内必须回答。\n\n现在，请您提供一个字，我们就可以开始游戏了！您可以给我任意一个字，我会尽力接上。准备好了吗？请告诉我一个字。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-32505f24-7935-4262-9b88-a092a14b98c8",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 290,
+                "output_tokens": 132,
+                "total_tokens": 422,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "月",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，您提供的字是“月”。我来开始：\n\n明月几时有？把酒问青天。\n\n现在轮到您了，请接上一句包含“月”的诗句。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-ea266cb9-b790-4482-b909-d05c5fef43d8",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 424,
+                "output_tokens": 41,
+                "total_tokens": 465,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "举头望明月，低头思故乡",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "非常好！您接得非常流畅：\n\n举头望明月，低头思故乡。\n\n这是杜甫的《月夜忆舍弟》中的名句。现在轮到我了：\n\n疏影横斜水清浅，暗香浮动月黄昏。\n\n请您继续接下一句。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-b0536aae-fbf9-471e-8108-b097e40e6bee",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 474,
+                "output_tokens": 57,
+                "total_tokens": 531,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259427834": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了给您推荐更合适的古诗，请您回答以下三个问题：\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-fc8e0078-fe19-4db7-969d-81752b9065ac",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 287,
+                "output_tokens": 75,
+                "total_tokens": 362,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259437295": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，飞花令是一种传统的诗词游戏，规则如下：\n\n1. 由一方出一个字，另一方需要快速回答一句含有这个字的古诗词。\n2. 回答的诗句不能重复，且要求符合诗词的原文。\n3. 如果回答正确，对方需继续接龙；如果回答错误，则视为失败。\n4. 可以设定一个时间限制，增加游戏的趣味性。\n\n现在，请您出一个字，我们开始游戏吧！",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-3ba10619-7254-4563-8ec8-d4b4dacae8a7",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 290,
+                "output_tokens": 93,
+                "total_tokens": 383,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259464009": [
+        {
+            "content": "能介绍一下诗人李白吗？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。\n\n李白，字太白，号青莲居士，唐代著名诗人，与杜甫并称为\"李杜\"，被后人尊为\"诗仙\"。他的诗歌想象丰富，意境遒劲，语言流畅，具有很高的艺术成就，是唐诗中的璀璨明星。\n\n李白的诗歌内容广泛，既有歌颂祖国壮丽山河的，如《将进酒》《庐山谣》等，又有表达豪放不羁个性和对自由热切追求的，如《静夜思》《夜泊牛渚怀古》等；同时还有不少反映边塞生活、表现英雄主义的作品，如《塞下曲》等。\n\n他的诗风豪放奔放，善于运用夸张和比喻，形成了独特的\"李白式\"的艺术风格，对后世产生了深远的影响。在唐代文坛，乃至中国文学史上，李白都占有举足轻重的地位。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-045beee9-56c5-403c-a6d6-6ce96e00ea87",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 288,
+                "output_tokens": 187,
+                "total_tokens": 475,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259707575": [
+        {
+            "content": "测测我的诗词小知识",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，请告诉我你希望挑战的难度：简单、中等、还是困难？我会根据你的选择，为你准备丰富有趣的题目。\n\n如果你选择简单难度，题目可能会是一些关于诗词的基础知识和著名诗句的填空。\n\n如果你选择中等难度，题目可能会包括对诗句的理解、诗词背景的考查，或者是诗人作品的配对。\n\n如果你选择困难难度，那么题目可能会涉及较深的文学理论，对古诗词的深入解读，或者是诗词创作技巧的分析。\n\n请选择你的难度，让我们开始吧！",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-9c26480b-1fa2-4332-b5ec-59b679fec9a7",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 288,
+                "output_tokens": 107,
+                "total_tokens": 395,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "简单",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，既然你选择了简单难度，那我们来玩一些基础的诗词知识题目吧！\n\n1. 请补全下面的诗句：“床前明月光，疑是______霜。”\n   - 提示：这是唐代诗人李白的名句。\n\n2. 下面这首诗的作者是谁？\n   - 诗句：“白日依山尽，黄河入海流。”\n   - 提示：这是一首脍炙人口的五言绝句。\n\n3. 请问“春风又绿江南岸”中，“春风”指的是哪个季节的风？\n   - 提示：这是一句描写春天的诗句。\n\n请回答以上问题，看看你的诗词知识如何！如果需要帮助，我会随时为你提供提示。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-0c2fc586-48c3-41a2-b30f-5522c42201e9",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 397,
+                "output_tokens": 149,
+                "total_tokens": 546,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259747997": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了给您推荐更合适的古诗，请您回答以下几个问题：\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-bacda4bf-cf9f-4a5a-89de-50e8fde3ee7e",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 287,
+                "output_tokens": 74,
+                "total_tokens": 361,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "风景田园，古体诗，李白",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "根据您的选择，我为您推荐李白的《望庐山瀑布》：\n\n日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。\n\n推荐理由：\n1. 题材：这首诗描绘了庐山瀑布壮丽的自然风光，属于风景田园的题材，与您的喜好相符。\n2. 格律：这是一首古体诗，结构自由，韵律优美，符合您对古体诗的偏好。\n3. 诗人：李白是唐代伟大的浪漫主义诗人，他的诗作以豪放、奔放、想象力丰富而著称，也是您所喜爱的诗人。\n\n这首诗不仅展现了大自然的壮美，也体现了李白对于自然景观的热爱和赞美，相信您会喜欢的。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-c4c39d69-9d76-4cd1-8b86-a44b01806f1a",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 370,
+                "output_tokens": 163,
+                "total_tokens": 533,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259780350": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！这是一个古老而有趣的文字游戏，能够锻炼诗词知识和反应能力。\n\n飞花令的规则是这样的：参与者轮流说出包含特定字的诗句。首先，由一名玩家提出一个字，然后另一名玩家必须迅速回答出一个包含这个字的诗句。接着，轮到对方提出新的字，游戏继续进行。如果某位玩家不能在规定时间内答出正确的诗句，那么这一轮就算失败。\n\n现在，请您输入一个字，我们就可以开始游戏了。我会先开始第一句。准备好了吗？请告诉我一个字吧！",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-8b1a39a7-c724-4ad2-aa3e-1e288018f4be",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 290,
+                "output_tokens": 124,
+                "total_tokens": 414,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "月",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，您给出的字是“月”。我来开始：\n\n“明月几时有，把酒问青天。”\n\n现在轮到您了，请回答一个包含“月”字的诗句。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-ada8e21c-4cd6-4215-ad78-4eac483bdced",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 416,
+                "output_tokens": 41,
+                "total_tokens": 457,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732259803689": [
+        {
+            "content": "你能介绍一下诗人李白吗？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。\n\n李白，字太白，号青莲居士，是唐代著名的浪漫主义诗人，有“诗仙”之称。他大约生活在公元701年到762年之间，其诗歌以豪放、奔放、想象丰富、语言明快著称，具有很高的艺术成就，对后世影响深远。\n\n李白的诗歌内容广泛，包括山水田园、边塞战事、友情送别、史诗传奇等。他的诗中充满了对自由的向往和对理想的追求，同时也流露出对人生无常、功名虚幻的感慨。他的名篇如《将进酒》、《庐山谣》、《夜泊牛渚怀古》等，都展示了其非凡的文学才华和独特的个性。\n\n李白的诗歌在格律上也有很高的造诣，他擅长运用各种诗体，尤其是七言绝句和五言古诗，其诗多采用夸张和比喻的手法，形象生动，富有音乐性和节奏感。\n\n他的诗歌不仅在中国古代文学史上占有重要地位，而且对东亚乃至世界文学都产生了深远的影响。李白在中国文学史上是一个不可多得的诗歌天才，被后人传颂不衰。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-878c71d6-7bf1-456a-ad6d-b0f63bd71c43",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 288,
+                "output_tokens": 239,
+                "total_tokens": 527,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732260193330": [
+        {
+            "content": "测测我的诗词小知识",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，欢迎来到古诗词知识测试！请选择你的难度等级：简单、中等、还是困难？我会根据你的选择给出相应难度和丰富有趣的题目。\n\n- 如果选择简单，可能会是一些填空、选择或简答题。\n- 如果选择中等，题目可能会包括对诗句的理解、诗词背景的考察等。\n- 如果选择困难，那么可能会是一些需要对诗词有深入理解的问题，或者要求你创作诗词。\n\n请告诉我你的选择，我们就可以开始了！",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-41155c24-758e-414b-a068-14affefbe287",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 288,
+                "output_tokens": 99,
+                "total_tokens": 387,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "简单",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，那么我们就从简单的题目开始吧！\n\n题目一：填空题\n请根据提示，完成下面的句子：\n“床前明月光，疑是地上霜。举头望明月，__。”\n\n题目二：选择题\n下列哪个词牌不属于宋词？\nA. 雨霖铃\nB. 水调歌头\nC. 浪淘沙\nD. 手机\n\n题目三：简答题\n请简述一下《静夜思》这首诗的主题。\n\n请尽力回答这些问题，如果需要帮助，随时告诉我！",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-ae30d4d8-bfc5-4823-b61b-2375fe7146c9",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 389,
+                "output_tokens": 117,
+                "total_tokens": 506,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732260224566": [
+        {
+            "content": "给我推荐一首优美的古诗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。为了更好地为您推荐合适的古诗，请您回答以下三个问题：\n\n问题一：你喜欢什么题材的古诗（风景田园、边塞征战、浓情蜜意、人生哲理）？\n\n问题二：你喜欢什么格律（特定的词牌名或者古体诗、近体诗）？\n\n问题三：你有没有很喜欢的某个诗人？",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-2f072b63-6f3b-4f21-af0b-1817e1521e9f",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 287,
+                "output_tokens": 75,
+                "total_tokens": 362,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "风景田园，古体诗，李白",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "根据您的喜好，我为您推荐李白的《望庐山瀑布》：\n\n日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。\n\n推荐理由：\n1. 题材：这首诗描绘了庐山瀑布壮丽的自然风光，属于风景田园题材，符合您的喜好。\n2. 格律：这是一首古体诗，没有严格的格律限制，字里行间透露出李白的豪放与不羁。\n3. 诗人：李白是您喜欢的诗人，这首诗是他的代表作之一，展现了他对自然美景的热爱和赞美。\n\n希望您会喜欢这首诗。如果您还有其他要求，请随时告诉我。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-4d1fc217-e429-427a-a6ac-ede8172778d3",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 371,
+                "output_tokens": 151,
+                "total_tokens": 522,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732260254657": [
+        {
+            "content": "咱们一起来玩飞花令小游戏吧",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，非常高兴您想玩飞花令！飞花令是一种古老的诗词游戏，要求玩家根据指定的字即兴创作诗句。游戏的规则是这样的：\n\n1. 由一位玩家先提出一个字。\n2. 另一位玩家需要用这个字作为诗句的最后一个字，创作出一句诗。\n3. 诗句必须符合诗词的格律，可以是古体诗也可以是近体诗。\n4. 每位玩家轮流创作，不能重复使用已经出现过的诗句。\n5. 如果一位玩家不能在规定时间内创作出诗句，那么就视为失败。\n\n现在，请您输入一个字，我们就可以开始游戏了。我会先给出第一句诗，然后轮到您。准备好了吗？请输入您选择的字。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-b1eb8d41-b224-4579-a76f-b48f55206dd1",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 290,
+                "output_tokens": 157,
+                "total_tokens": 447,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        },
+        {
+            "content": "月",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "好的，您选择了“月”字。我先来一句：\n\n\"举杯邀明月，对影成三人。\"\n\n现在轮到您了，请用“月”字作为最后一个字，创作一句诗。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-d65a84d8-09b5-438c-9a71-9b6c807c59b0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 449,
+                "output_tokens": 47,
+                "total_tokens": 496,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ],
+    "1732260278494": [
+        {
+            "content": "你能介绍一下诗人李白吗？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        },
+        {
+            "content": "当然可以。\n\n李白，字太白，号青莲居士，唐代著名诗人，与杜甫并称为\"李杜\"，被后人尊为\"诗仙\"。他的诗歌以豪放洒脱、意境遒劲著称，作品多表现出一种超凡脱俗、奔放自由的个性，以及对理想的执着追求。\n\n李白的诗歌题材广泛，包括山水田园、边塞战事、友情送别、史诗传奇等。他的诗作中，不乏名篇佳作，如《将进酒》、《庐山谣》、《夜泊牛渚怀古》等，都流传甚广，至今仍被广大读者传诵。\n\n在格律方面，李白擅长各种诗体，尤其以七言绝句和五言古诗见长。他的诗多采用夸张、比喻、拟人等修辞手法，形象生动，富有想象力。\n\n李白的诗歌对后世产生了深远的影响，不仅是唐诗的代表，更是中国古典文学宝库中的瑰宝。",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "finish_reason": "stop",
+                "model_name": "glm-4"
+            },
+            "type": "AIMessageChunk",
+            "name": null,
+            "id": "run-65a2a307-7d10-4c9a-9aad-e817ca5704ce",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 288,
+                "output_tokens": 200,
+                "total_tokens": 488,
+                "input_token_details": {},
+                "output_token_details": {}
+            },
+            "tool_call_chunks": []
+        }
+    ]
+}

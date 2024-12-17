@@ -1,0 +1,198 @@
+/* 重置默认样式 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'SimLi', 'Arial', sans-serif; /* 使用隶书字体 */
+}
+
+/* 设置页面背景和布局 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f3e7; /* 米黄色背景 */
+}
+
+/* 容器样式 */
+.container {
+    position: relative;
+    width: 900px;
+    max-width: 100%;
+    min-height: 600px;
+    background: linear-gradient(145deg, #ffffff, #f0e6d8); /* 增加渐变背景 */
+    border-radius: 10px;
+    border: 1px solid #c4b897; /* 淡棕色边框 */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* 增加立体阴影 */
+    overflow: hidden;
+}
+
+/* 表单容器样式 */
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-up-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    opacity: 0;
+}
+
+.sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+.container.right-panel-active .sign-in-container {
+    transform: translateX(100%);
+}
+
+/* 表单样式 */
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input {
+    background: #f1e7d2;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-bottom: 1px solid #c4b897;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* 内部阴影增强立体感 */
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2); /* 聚焦时立体感加强 */
+}
+
+button {
+    border: none;
+    padding: 12px 45px;
+    margin-top: 20px;
+    background-color: #6d4c41;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 80ms ease-in, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加按钮的阴影 */
+}
+
+button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* 悬浮时阴影加深 */
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 按下时阴影变小 */
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    font-family: 'SimLi', serif; /* 隶书标题 */
+    color: #6d4c41;
+    font-size: 32px; /* 大一些的字体以表现隶书的独特风格 */
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 20px 0;
+    font-family: 'SimLi', serif; /* 隶书风格 */
+    color: #5d4037;
+}
+
+/* 覆盖层样式 */
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.overlay {
+    background: linear-gradient(to right, #8e7c6d, #b09278, #e0b99c); /* 增加第三层颜色，制造渐变层次感 */
+    color: #ffffff;
+    position: absolute;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+.container.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}

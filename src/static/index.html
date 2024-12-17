@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <title>诗享人生</title>
+    <link rel="stylesheet" href="./assets/font/iconfont.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-nav">
+                <span id="btn-fold-in" class="iconfont icon-zhedie1 fold"></span>
+                <div class="new-session">
+                    <svg id="new-session" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 7v5h5v2h-5v5h-2v-5H7v-2h5V7h2z" fill="#fff"/>
+                    </svg>
+                </div>
+                <div class="history">
+                    <div class="today"></div>
+                    <div class="yesterday"></div>
+                    <div class="last-7days"></div>
+                    <div class="last-30days"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-log">
+                <div class="content-top">
+                    <span id="btn-fold-out" class="iconfont icon-zhedie2 fold"></span>
+                    <div class="select-wrapper">
+                        <select id="selectLLM">
+                            <option value="mychat_pure">古诗词小助手（普通版）</option>
+                            <option value="mychat">古诗词小助手（Plus版）</option>
+                        </select>
+                    </div>
+                    <div class="content-nav">
+                        <img src="./assets/imgs/logo.png" alt="Poetry Assistant Logo" class="logo">
+                    </div>
+                </div>    
+                <div id="res-log">
+                   <div class="recommended-questions">
+                        <button class="recommendation" onclick="fillInput('测测我的诗词小知识')">测测我的诗词小知识</button>
+                        <button class="recommendation" onclick="fillInput('给我推荐一首优美的古诗')">给我推荐一首优美的古诗</button>
+                        <button class="recommendation" onclick="fillInput('咱们一起来玩飞花令小游戏吧')">咱们一起来玩飞花令小游戏吧</button>
+                   </div>
+                </div>
+            </div>
+            <div class="content-footer">
+                <div class="input-chat-wrapper">
+                    <span id="input-attachment" class="iconfont icon-fujian"></span>
+                    <input id="input-chat" placeholder="让我们一起来畅游诗海吧">
+                    <span id="input-send" class="iconfont icon-shangchuan"></span>
+                </div>
+                <button id="toggle-sidebar" class="toggle-button">相关链接</button>
+                <div id="sidebar" class="footer-sidebar">
+                    <a href="https://www.gushiwen.cn/" class="footer-sidebar-link">
+                        <button class="footer-sidebar-button">
+                            <img src="./assets/imgs/01.png" alt="古诗文网">
+                        </button>
+                    </a>
+                    <a href="https://sou-yun.cn/" class="footer-sidebar-link">
+                        <button class="footer-sidebar-button">
+                            <img src="./assets/imgs/02.png" alt="搜韵">
+                        </button>
+                    </a>
+                    <a href="https://www.zgshige.com/" class="footer-sidebar-link">
+                        <button class="footer-sidebar-button">
+                            <img src="./assets/imgs/03.png" alt="中国诗歌网">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
